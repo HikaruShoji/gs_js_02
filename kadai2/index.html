@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>簡易掲示板</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+  <h1>簡易掲示板</h1>
+  <h2>名前</h2>
+	<form action="" method="post">
+		<input type="text" id="name" class="name_text" name="name">
+    <h2>本文</h2>
+    <textarea cols="20" rows="" wrap="5" id="main" class="main_text"></textarea>
+		<input type="button" id="post" value="投稿">
+	</form>
+	<h3>投稿一覧</h3>
+	<input type="button" id="clear" value="投稿一覧の削除" class="clear_btn">
+	<ul id="commnentList">
+  </ul>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
